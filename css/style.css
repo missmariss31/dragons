@@ -10,7 +10,9 @@ body {
 
 
 /*Header*/
-
+#info {
+    text-align: center;
+}
 
 #greeting {
     font-weight: bold;
@@ -40,7 +42,6 @@ hr {
 }
 
 .proj-img {
-    /*Clean Up Image*/
     width: 100%;
 }
 
@@ -65,10 +66,10 @@ canvas {
 
 /*Responsive CSS*/
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1200px) {
 
-    #logo {
-        float: left;
+    #website {
+        font-size: 18px;
     }
 
     .proj-link {
