@@ -74,4 +74,8 @@ canvas {
     .proj-link {
         font-size: 18px;
     }
+
+    #game {
+        width: 100%;
+    }
 }
